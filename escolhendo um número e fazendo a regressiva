@@ -1,0 +1,9 @@
+let prompt = require('prompt-sync')();
+
+let contador = 0
+let numero = prompt('digite seu numero ');
+
+while (contador <= numero){
+    console.log(`regressiva ${numero}`);
+    numero = numero - 1
+}
