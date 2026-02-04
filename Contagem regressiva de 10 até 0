@@ -1,0 +1,7 @@
+//regressiva de 10 até 0
+let contador = 10;
+
+while (contador >= 0){
+    console.log (`regressiva em ${contador}`);
+    contador = contador -1;
+}
